@@ -1,7 +1,23 @@
 .header {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 .gem-pic {
   height: 75px;
   width: 75px;
+  padding: 10px;
+  border: solid;
+  border-width: medium;
+}
+.container {
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  font-weight: bold;
+}
+body{
+  background-color: #d46f80;
+  font-family: 'Indie Flower', cursive;
+  background-image: url("../images/star.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

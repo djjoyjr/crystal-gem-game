@@ -2,24 +2,28 @@
   <html>
     <head>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link rel="stylesheet" href="./assets/css/style.css">
-      <title>Crystals Collector</title>
+      <title>Crystal Gem Collector</title>
     </head>
     <body class="body">
       <div class="header">
-      <h1>Crystals Collector</h1>
+      <h1>Crystal Gem Collector</h1>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div id=rules>
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You'll be given a random number at the start of the game.</p>
+            <p>There are four crystal gems below. By clicking on a crystal gem you will add a specific number of points to your total score.</p>
             <p>You win the game by matching your total score to the random number.  You lose the game if your total score goes above the random number.</p>
             <p>The value of each crystal is hidden from your until you click on it.</p>
-            <p>Each time that the game starts, the game will change the values of each crystal.<p>
+            <p>With each new game, values of each crystal will change.<p>
             </div>
+          </div>
+          <div class="col-md-6">
+            <div id="win-gif"></div>
           </div>
         </div>
         <div class="row">
@@ -27,17 +31,13 @@
             <h2>The target number is:  <span id="number-to-guess"></span></h2>
           </div>
           <div class="col-md-3">
-            <div id="scoreDiv">
-            </div>
-            <div id="wins">
-            </div>
-            <div id="losses">
-            </div>
+            <div id="scoreDiv"></div>
+            <div id="wins"></div>
+            <div id="losses"></div>
           </div>
         </div>
         <div class="row">
-          <div id="gemDiv">
-          </div>
+          <div id="gemDiv"></div>
         </div>
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
   </body>
