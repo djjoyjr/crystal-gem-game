@@ -47,7 +47,7 @@ $(".gem-pic").on("click", function() {
     reset();
   }
   else if (counter > targetNumber) {
-    alert("You lose!!");
+    alert("Sorry, you lost.  Click any Crystal Gem to start a new game.");
     losses ++;
     reset();
   }
